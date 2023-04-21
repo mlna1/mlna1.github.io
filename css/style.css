@@ -3,7 +3,7 @@
 
 
 body {
-    background: linear-gradient( 70deg, rgb(101, 169, 247) 15.26%, rgb(27, 91, 163) 99%) fixed;
+    background: linear-gradient( 70deg, rgb(2, 46, 95) 15.26%, rgb(37, 131, 238) 99%) fixed;
     margin: 0px;
     min-height: 1200px;
 
@@ -30,6 +30,7 @@ body {
 .profile{
     display: flex;
     align-items: center;
+    /* justify-content: spa; */
     color: #1c1c1c;
 }
 
@@ -43,8 +44,7 @@ body {
 .title{
     margin-left: 60px;
     color: rgb(231, 231, 231);
-    margin-right: 300px;
-    
+
 }
 
 #profile-photo{
@@ -58,6 +58,12 @@ body {
     min-width: 300px;
     min-height: 300px;
 }
+
+/*
+#profile-photo:hover{
+    object-fit: none;
+}
+*/
 
 .title h1{
     font-weight: 700;
@@ -73,7 +79,7 @@ body {
     width: 50px;
     height: auto;
     border-radius: 100%;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     position: relative;
     top:-140px;
 }
@@ -95,13 +101,13 @@ body {
     align-items: center;
     color: rgb(231, 231, 231);
     list-style-type: none;
-    background: linear-gradient( 70deg, rgb(72, 224, 179) 15.26%, rgb(65, 154, 196) 99%);
+    background: linear-gradient( 70deg, rgb(3, 39, 80) 15.26%, rgb(65, 154, 196) 99%);
     background-repeat: no-repeat;
     border-radius: 15px;
     margin-top: 30px;
     padding-bottom: 30px;
     text-align: left;
-    box-shadow: 6px 6px 10px rgb(72, 155, 114);
+    box-shadow: 6px 6px 10px rgb(1, 49, 63);
 
 }
 
@@ -123,7 +129,7 @@ body {
 }
 
 .exercicios li:hover{
-    color: rgb(15, 17, 17);
+    color: rgb(20, 176, 248);
 }
 
 #space {
